@@ -1,0 +1,73 @@
+.cocktail {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .15);
+    overflow: hidden;
+    transition: .4s;
+    position: relative;
+}
+
+.cocktail:hover {
+    box-shadow: 1px 3px 15px 3px rgba(0, 0, 0, .18);
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.img-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.img-container:hover > img {
+    transform: scale(1.1);
+}
+
+.cocktail-footer {
+    padding: 5px 10px 10px;
+}
+
+.cocktail-footer h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #e17055;
+    font-weight: 700;
+    margin: 3px 0;
+}
+
+.cocktail-footer p {
+    display: inline;
+    font-size: 13px;
+    color: #bbb;
+}
+
+.cocktail-footer > a {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    right: 15px;
+    bottom: 10px;
+}
+
+.cocktail-footer .btn {
+    background-color: #ff7675;
+    border: #ff7675 2px solid;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: .3s;
+    color: #fff;
+}
+
+.cocktail-footer .btn:hover {
+    background-color: transparent;
+    color: #ff7675;
+}

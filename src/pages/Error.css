@@ -1,0 +1,43 @@
+.error {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container {
+    text-align: center;
+}
+
+.error-container > h1 {
+    color: #ff7675;
+    margin-bottom: 20px;
+}
+
+.error-container > h1 > span {
+    color: #333;
+    font-weight: 500;
+}
+
+.error-container > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fab1a0;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+}
+
+.error-container > a > svg {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.error-container > a:hover {
+    background-color: #ff7675;
+    box-shadow: 1px 3px 8px -2px #ff7675;
+}
